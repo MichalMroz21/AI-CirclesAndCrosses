@@ -1,6 +1,7 @@
 import pygame, sys
 
 from Button import Button
+from Game import Game
 
 import time 
 
@@ -63,7 +64,8 @@ class SelectionMenu:
                         return
 
                     if self.PLAY_BUTTON.checkForInput(self.LOBBY_MOUSE_POS):
-                        pass
+                        game = Game(self.screen, self.screenWidth, self.screenHeight, self.FPS, self.mixer, self.menu, self.Font, self.boardSize)
+                        game.runGame()
                         
                     if self.BOARD_BUTTON.checkForInput(self.LOBBY_MOUSE_POS):
 

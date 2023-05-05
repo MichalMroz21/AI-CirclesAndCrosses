@@ -57,7 +57,7 @@ class Menu:
         self.MENU_RECT = self.MENU_TEXT.get_rect(center=(self.screenWidth / 2, self.screenHeight / 7.2))
 
         self.NEURAL_NETWORK_BUTTON = Button(image=None, pos=(self.screenWidth / 2, self.screenHeight / 3.0), text_input="NEURAL NETWORK", font=self.Font.get_normal_font(), base_color="White", hovering_color="Red")
-        self.QLEARNING_BUTTON = Button(image=None, pos=(self.screenWidth / 2, self.screenHeight / 2.0), text_input="QLERNING", font=self.Font.get_normal_font(), base_color="White", hovering_color="Red")
+        self.QLEARNING_BUTTON = Button(image=None, pos=(self.screenWidth / 2, self.screenHeight / 2.0), text_input="QLEARNING", font=self.Font.get_normal_font(), base_color="White", hovering_color="Red")
         self.HEURISTIC_BUTTON = Button(image=None, pos=(self.screenWidth / 2, self.screenHeight / 1.5), text_input="HEURISTIC", font=self.Font.get_normal_font(), base_color="White", hovering_color="Red")
         self.QUIT_BUTTON = Button(image=None, pos=(self.screenWidth / 2, self.screenHeight / 1.2), text_input="QUIT", font=self.Font.get_normal_font(), base_color="Green", hovering_color="Red")
 

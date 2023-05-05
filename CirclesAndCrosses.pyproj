@@ -21,11 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Board.py" />
     <Compile Include="Button.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CirclesAndCrosses.py" />
     <Compile Include="Font.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Game.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Menu.py">
@@ -35,6 +39,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SelectionMenu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNode.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
